@@ -1,0 +1,66 @@
+[
+  {
+    "title": "7735 N. Oak Valley Road",
+    "location": "Staten Island, NY 10312",
+    "features": {
+      "type": "Virtual",
+      "area": "2334 sq ft",
+      "rooms": 7,
+      "year": 2019
+    },
+    "price": {
+      "original": "$6,000/mo",
+      "current": "$4,500/mo"
+    },
+    "status": ["Featured", "Sold"],
+    "image": "property1.jpg"
+  },
+  {
+    "title": "4285 Maple Street",
+    "location": "Brooklyn, NY 11225",
+    "features": {
+      "type": "Virtual",
+      "area": "2100 sq ft",
+      "rooms": 6,
+      "year": 2021
+    },
+    "price": {
+      "original": "$5,500/mo",
+      "current": "$4,200/mo"
+    },
+    "status": ["Featured"],
+    "image": "property2.jpg"
+  },
+  {
+    "title": "1920 Cedar Avenue",
+    "location": "Bronx, NY 10468",
+    "features": {
+      "type": "Virtual",
+      "area": "2500 sq ft",
+      "rooms": 8,
+      "year": 2020
+    },
+    "price": {
+      "original": "$7,000/mo",
+      "current": "$5,800/mo"
+    },
+    "status": ["Sold"],
+    "image": "property3.jpg"
+  },
+  {
+    "title": "580 Willow Drive",
+    "location": "Queens, NY 11385",
+    "features": {
+      "type": "Virtual",
+      "area": "1800 sq ft",
+      "rooms": 5,
+      "year": 2018
+    },
+    "price": {
+      "original": "$4,000/mo",
+      "current": "$3,200/mo"
+    },
+    "status": [],
+    "image": "property4.jpg"
+  }
+]
