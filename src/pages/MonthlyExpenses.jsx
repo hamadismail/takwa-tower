@@ -37,7 +37,7 @@ const MonthlyExpenses = () => {
           </tbody>
 
           <tfoot className="bg-gray-100 ">
-            <tr>
+            <tr className="font-semibold text-lg">
               <td>Total Costs:</td>
               <td className="max-md:hidden"></td>
               <td className="max-md:hidden"></td>

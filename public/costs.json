@@ -1,86 +1,390 @@
 [
   {
     "id": 1,
-    "month": "January",
-    "year": 2024,
+    "month": "April",
+    "year": 2025,
     "costs": [
       {
         "id": 1,
-        "date": "05/01/2024",
-        "item": "Cement",
-        "unit": 10,
-        "unit_cost": 8,
-        "total_cost": 80
+        "date": "08/04/2025",
+        "item": "কাউছার সাহেব",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 38000
       },
       {
         "id": 2,
-        "date": "10/01/2024",
-        "item": "Bricks",
-        "unit": 500,
-        "unit_cost": 0.5,
-        "total_cost": 250
+        "date": "08/04/2025",
+        "item": "গ্যাস রাইজার মেরামত বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 6000
       },
       {
         "id": 3,
-        "date": "20/01/2024",
-        "item": "Paint",
-        "unit": 15,
-        "unit_cost": 12,
-        "total_cost": 180
+        "date": "08/04/2025",
+        "item": "সা. বোর্ড শিট",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 70000
+      },
+      {
+        "id": 4,
+        "date": "08/04/2025",
+        "item": "আস্তর বালি ১ গাড়ি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 5500
+      },
+      {
+        "id": 5,
+        "date": "08/04/2025",
+        "item": "আস্তর বালি টানা",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 4000
+      },
+      {
+        "id": 6,
+        "date": "08/04/2025",
+        "item": "১০ ড্রাম সিশার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 35000
       }
     ]
   },
   {
     "id": 2,
-    "month": "February",
-    "year": 2024,
+    "month": "March",
+    "year": 2025,
     "costs": [
       {
         "id": 1,
-        "date": "03/02/2024",
-        "item": "Tiles",
-        "unit": 100,
-        "unit_cost": 5,
-        "total_cost": 500
+        "date": "03/03/2025",
+        "item": "পারভেজ ইলেকট্রিক মিস্ত্রি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 20000
       },
       {
         "id": 2,
-        "date": "15/02/2024",
-        "item": "Wood",
-        "unit": 50,
-        "unit_cost": 15,
-        "total_cost": 750
+        "date": "03/03/2025",
+        "item": "৮ -",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 13630
       },
       {
         "id": 3,
-        "date": "25/02/2024",
-        "item": "Sand",
-        "unit": 20,
-        "unit_cost": 4,
-        "total_cost": 80
+        "date": "03/03/2025",
+        "item": "আল-আমিন মিস্ত্রি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 12000
+      },
+      {
+        "id": 4,
+        "date": "03/03/2025",
+        "item": "চৌকাঠ বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 35000
+      },
+      {
+        "id": 5,
+        "date": "03/03/2025",
+        "item": "চৌকাঠ উত্তরা",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 6000
+      },
+      {
+        "id": 6,
+        "date": "06/03/2025",
+        "item": "কামরুল বেতন",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 12000
+      },
+      {
+        "id": 7,
+        "date": "06/03/2025",
+        "item": "ইলেকট্রিক মালামাল",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 8000
+      },
+      {
+        "id": 8,
+        "date": "06/03/2025",
+        "item": "D13 বোর্ড / ৩ সাং / ১ সাং",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 8000
+      },
+      {
+        "id": 9,
+        "date": "06/03/2025",
+        "item": "আস্তর বালি ২ গাড়ি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 11000
+      },
+      {
+        "id": 10,
+        "date": "10/03/2025",
+        "item": "আস্তর বালি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 4000
+      },
+      {
+        "id": 11,
+        "date": "10/03/2025",
+        "item": "Aman Cement ৭০ ব্যাগ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 35000
+      },
+      {
+        "id": 12,
+        "date": "10/03/2025",
+        "item": "কাউছার সাহেব",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 38000
+      },
+      {
+        "id": 13,
+        "date": "10/03/2025",
+        "item": "সামছুল হক সাহেব ২ মাস",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 43000
+      },
+      {
+        "id": 14,
+        "date": "10/03/2025",
+        "item": "চৌকাঠ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 20000
+      },
+      {
+        "id": 15,
+        "date": "10/03/2025",
+        "item": "উত্তরা চৌকাঠ ১০ পিস",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 50000
+      },
+      {
+        "id": 16,
+        "date": "10/03/2025",
+        "item": "চৌকাঠের কোমাম ১ বস্তা",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 5180
+      },
+      {
+        "id": 17,
+        "date": "10/03/2025",
+        "item": "তারকাটা ৩ কেজি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 900
+      },
+      {
+        "id": 18,
+        "date": "12/03/2025",
+        "item": "সেনিটারি মালামাল",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 100600
+      },
+      {
+        "id": 19,
+        "date": "13/03/2025",
+        "item": "সগীর",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 8000
+      },
+      {
+        "id": 20,
+        "date": "19/03/2025",
+        "item": "Aman Cement ১০০ ব্যাগ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 50000
+      },
+      {
+        "id": 21,
+        "date": "19/03/2025",
+        "item": "ওয়াইফাই বিল",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 1000
+      },
+      {
+        "id": 22,
+        "date": "19/03/2025",
+        "item": "পানির বিল",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 36600
+      },
+      {
+        "id": 23,
+        "date": "19/03/2025",
+        "item": "তারকাটা",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 565
+      },
+      {
+        "id": 24,
+        "date": "19/03/2025",
+        "item": "আস্তর বালি ২ গাড়ি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 11000
+      },
+      {
+        "id": 25,
+        "date": "19/03/2025",
+        "item": "বালি টানা লেভার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 9500
+      },
+      {
+        "id": 26,
+        "date": "27/03/2025",
+        "item": "পাইপ ও সেনিটারি মালামাল",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 68000
+      },
+      {
+        "id": 27,
+        "date": "27/03/2025",
+        "item": "TST রায়হান",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 50000
+      },
+      {
+        "id": 28,
+        "date": "27/03/2025",
+        "item": "উত্তরা চৌকাঠ বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 62000
+      },
+      {
+        "id": 29,
+        "date": "27/03/2025",
+        "item": "সগীর লেভার বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 57000
+      },
+      {
+        "id": 30,
+        "date": "27/03/2025",
+        "item": "পারভেজ ইলেকট্রিক মিস্ত্রি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 20000
+      },
+      {
+        "id": 31,
+        "date": "28/03/2025",
+        "item": "আমিন বেতন ও বোনাস",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 18000
+      },
+      {
+        "id": 32,
+        "date": "28/03/2025",
+        "item": "সা. বো. কামরুল বেতন",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 18000
+      },
+      {
+        "id": 33,
+        "date": "28/03/2025",
+        "item": "সাইদ বেতন ও বোনাস",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 40000
+      },
+      {
+        "id": 34,
+        "date": "28/03/2025",
+        "item": "রুহুল আমিন",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 44000
+      },
+      {
+        "id": 35,
+        "date": "28/03/2025",
+        "item": "মোতালেব সেনিটারি বকেয়া",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 20000
+      },
+      {
+        "id": 36,
+        "date": "28/03/2025",
+        "item": "মোতালেব মিস্ত্রি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 20000
+      },
+      {
+        "id": 37,
+        "date": "28/03/2025",
+        "item": "মিতুল হার্ডওয়ার বকেয়া",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 50000
+      },
+      {
+        "id": 38,
+        "date": "28/03/2025",
+        "item": "সা. বো. পুর্বের বিদ্যুৎ বিল বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 18000
+      },
+      {
+        "id": 39,
+        "date": "28/03/2025",
+        "item": "সা. বো. বিল্ডিং এর সামনে রশি ফালানো বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 10000
       }
     ]
   },
   {
     "id": 3,
     "month": "March",
-    "year": 2024,
+    "year": 2025,
     "costs": [
       {
         "id": 1,
-        "date": "05/03/2024",
-        "item": "Glass",
-        "unit": 30,
-        "unit_cost": 20,
-        "total_cost": 600
-      },
-      {
-        "id": 2,
-        "date": "18/03/2024",
-        "item": "Pipes",
-        "unit": 25,
-        "unit_cost": 7,
-        "total_cost": 175
+        "date": "",
+        "item": "",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": ""
       }
     ]
   }

@@ -9,7 +9,7 @@ const ExpenseCard = ({ expense }) => {
   return (
     <div className="card bg-white">
       <div className="card-body items-center text-center">
-        <h2 className="card-title">
+        <h2 className="card-title mb-2">
           {expense.month} - {expense.year}
         </h2>
         <p className="bg-gray-100 p-6 w-full text-2xl font-semibold">

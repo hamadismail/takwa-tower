@@ -2,14 +2,14 @@ import React from 'react';
 import DailyExpenses from './DailyExpenses';
 
 const RecentExpenses = ({ expenses }) => {
-  const recentExpences = expenses[expenses.length - 1].costs;
+  const recentExpences = expenses[0].costs;
   const totalCost = recentExpences.reduce((acc, exp) => {
     return (acc += exp.total_cost);
   }, 0);
 
   return (
-    <div className="mt-8 bg-white p-8 rounded-xl">
-      <h1 className="text-lg font-medium mb-4">Recent Expenses</h1>
+    <div className="mt-8 bg-white py-4 lg:p-8 rounded-xl">
+      <h1 className="text-lg font-medium mb-4 pl-4">Recent Expenses</h1>
 
       <div className="overflow-x-auto">
         <table className="table">
@@ -31,7 +31,7 @@ const RecentExpenses = ({ expenses }) => {
           </tbody>
 
           <tfoot className="bg-gray-100 ">
-            <tr>
+            <tr className="font-semibold text-lg">
               <td>Total Costs:</td>
               <td className="max-md:hidden"></td>
               <td className="max-md:hidden"></td>
