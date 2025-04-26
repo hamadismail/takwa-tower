@@ -1,2 +1,15 @@
 @import 'tailwindcss';
 @plugin "daisyui";
+
+@font-face {
+  font-family: 'Jakarta';
+  src: url('./assets/fonts/PlusJakartaSans.ttf');
+}
+
+/* @theme {
+  --font-jakarta: 'Jakarta', 'sans-serif';
+} */
+
+body {
+  font-family: 'Jakarta';
+}
