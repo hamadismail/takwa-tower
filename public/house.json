@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "7735 N. Oak Valley Road",
     "location": "Staten Island, NY 10312",
     "features": {
@@ -13,9 +14,10 @@
       "current": "$4,500/mo"
     },
     "status": ["Featured", "Sold"],
-    "image": "property1.jpg"
+    "image": "https://i.ibb.co.com/wrsT6Zp2/house1.jpg"
   },
   {
+    "id": 2,
     "title": "4285 Maple Street",
     "location": "Brooklyn, NY 11225",
     "features": {
@@ -29,9 +31,10 @@
       "current": "$4,200/mo"
     },
     "status": ["Featured"],
-    "image": "property2.jpg"
+    "image": "https://i.ibb.co.com/Pz1HQDRx/house2.jpg"
   },
   {
+    "id": 3,
     "title": "1920 Cedar Avenue",
     "location": "Bronx, NY 10468",
     "features": {
@@ -45,9 +48,10 @@
       "current": "$5,800/mo"
     },
     "status": ["Sold"],
-    "image": "property3.jpg"
+    "image": "https://i.ibb.co.com/zhsCWdZz/house3.jpg"
   },
   {
+    "id": 4,
     "title": "580 Willow Drive",
     "location": "Queens, NY 11385",
     "features": {
@@ -61,6 +65,6 @@
       "current": "$3,200/mo"
     },
     "status": [],
-    "image": "property4.jpg"
+    "image": "https://i.ibb.co.com/MyLZ94wB/house4.jpg"
   }
 ]

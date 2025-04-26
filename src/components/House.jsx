@@ -1,26 +1,48 @@
 import React from 'react';
+import { FaChartArea, FaHome, FaPenNib } from 'react-icons/fa';
+import { MdLiving } from 'react-icons/md';
+import '../styles/house.css';
 
-const House = () => {
+const House = ({ house }) => {
   return (
     <div className="card bg-base-100 shadow-sm">
       <figure>
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-          alt="Shoes"
-        />
+        <img className="house-img" src={house.image} alt="Apartment" />
       </figure>
-      <div className="card-body">
-        <h2 className="card-title">
-          Card Title
-          <div className="badge badge-secondary">NEW</div>
-        </h2>
-        <p>
-          A card component has a figure, a body part, and inside body there are
-          title and actions parts
-        </p>
-        <div className="card-actions justify-end">
-          <div className="badge badge-outline">Fashion</div>
-          <div className="badge badge-outline">Products</div>
+      <div className="p-4">
+        <h2 className="card-title">{house.title}</h2>
+        <div className="flex justify-between my-4 text-gray-600 font-medium">
+          <div>
+            <p className="flex gap-2 items-center">
+              <FaHome />
+              {house.features.type}
+            </p>
+            <p className="flex gap-2 items-center">
+              <MdLiving />
+              {house.features.rooms}
+            </p>
+          </div>
+          <div>
+            <p className="flex gap-2 items-center">
+              <FaChartArea />
+              {house.features.area}
+            </p>
+            <p className="flex gap-2 items-center">
+              <FaPenNib />
+              {house.features.year}
+            </p>
+          </div>
+        </div>
+        <div className="border-t pt-4 border-gray-300">
+          <div className="flex justify-between gap-2 mb-2">
+            <p className="line-through text-gray-500 font-medium">
+              {house.price.original}
+            </p>
+            <p className="font-medium">{house.price.current}</p>
+          </div>
+          <div className="bg-blue-600 text-white text-center font-medium cursor-pointer px-2 py-1 rounded">
+            View Details
+          </div>
         </div>
       </div>
     </div>
