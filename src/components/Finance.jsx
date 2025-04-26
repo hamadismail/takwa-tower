@@ -15,7 +15,15 @@ const Finance = () => {
           <p className="mt-4 text-2xl text-center text-green-600 font-medium p-8 bg-green-100 rounded-2xl">
             10,000,000 BDT
           </p>
-          <button className="mt-4 cursor-pointer bg-green-600 text-white w-full font-semibold p-2 rounded-full">
+          <p className="text-sm mt-1 text-center">Since January 2024</p>
+
+          <button
+            onClick={() => {
+              navigate('/expenses');
+              window.scrollTo(0, 0);
+            }}
+            className="mt-4 cursor-pointer bg-green-600 text-white w-full font-semibold p-2 rounded-full"
+          >
             View Details
           </button>
         </div>
@@ -24,8 +32,12 @@ const Finance = () => {
           <p className="mt-4 text-2xl text-center text-red-600 font-medium p-8 bg-red-100 rounded-2xl">
             10,000,000 BDT
           </p>
+          <p className="text-sm mt-1 text-center">Since January 2024</p>
           <button
-            onClick={() => navigate('/expenses')}
+            onClick={() => {
+              navigate('/expenses');
+              window.scrollTo(0, 0);
+            }}
             className="mt-4 cursor-pointer bg-red-600 text-white w-full font-semibold p-2 rounded-full"
           >
             View Details

@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "month": "January",
+    "year": 2024,
+    "costs": [
+      {
+        "id": 1,
+        "date": "05/01/2024",
+        "item": "Cement",
+        "unit": 10,
+        "unit_cost": 8,
+        "total_cost": 80
+      },
+      {
+        "id": 2,
+        "date": "10/01/2024",
+        "item": "Bricks",
+        "unit": 500,
+        "unit_cost": 0.5,
+        "total_cost": 250
+      },
+      {
+        "id": 3,
+        "date": "20/01/2024",
+        "item": "Paint",
+        "unit": 15,
+        "unit_cost": 12,
+        "total_cost": 180
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "month": "February",
+    "year": 2024,
+    "costs": [
+      {
+        "id": 1,
+        "date": "03/02/2024",
+        "item": "Tiles",
+        "unit": 100,
+        "unit_cost": 5,
+        "total_cost": 500
+      },
+      {
+        "id": 2,
+        "date": "15/02/2024",
+        "item": "Wood",
+        "unit": 50,
+        "unit_cost": 15,
+        "total_cost": 750
+      },
+      {
+        "id": 3,
+        "date": "25/02/2024",
+        "item": "Sand",
+        "unit": 20,
+        "unit_cost": 4,
+        "total_cost": 80
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "month": "March",
+    "year": 2024,
+    "costs": [
+      {
+        "id": 1,
+        "date": "05/03/2024",
+        "item": "Glass",
+        "unit": 30,
+        "unit_cost": 20,
+        "total_cost": 600
+      },
+      {
+        "id": 2,
+        "date": "18/03/2024",
+        "item": "Pipes",
+        "unit": 25,
+        "unit_cost": 7,
+        "total_cost": 175
+      }
+    ]
+  }
+]
