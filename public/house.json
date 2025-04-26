@@ -14,7 +14,8 @@
       "current": "$4,500/mo"
     },
     "status": ["Featured", "Sold"],
-    "image": "https://i.ibb.co.com/wrsT6Zp2/house1.jpg"
+    "image": "https://i.ibb.co.com/wrsT6Zp2/house1.jpg",
+    "description": "Modern office building with glass exterior, ideal for growing businesses and professional setups."
   },
   {
     "id": 2,
@@ -31,7 +32,8 @@
       "current": "$4,200/mo"
     },
     "status": ["Featured"],
-    "image": "https://i.ibb.co.com/Pz1HQDRx/house2.jpg"
+    "image": "https://i.ibb.co.com/Pz1HQDRx/house2.jpg",
+    "description": "Beautiful family home in the heart of Brooklyn, featuring spacious rooms and a private backyard."
   },
   {
     "id": 3,
@@ -48,7 +50,8 @@
       "current": "$5,800/mo"
     },
     "status": ["Sold"],
-    "image": "https://i.ibb.co.com/zhsCWdZz/house3.jpg"
+    "image": "https://i.ibb.co.com/zhsCWdZz/house3.jpg",
+    "description": "Spacious multi-family residence located near schools, parks, and public transport for easy city living."
   },
   {
     "id": 4,
@@ -65,6 +68,7 @@
       "current": "$3,200/mo"
     },
     "status": [],
-    "image": "https://i.ibb.co.com/MyLZ94wB/house4.jpg"
+    "image": "https://i.ibb.co.com/MyLZ94wB/house4.jpg",
+    "description": "Cozy and affordable single-family home with modern upgrades, perfect for small families or couples."
   }
 ]

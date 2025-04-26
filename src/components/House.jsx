@@ -2,8 +2,10 @@ import React from 'react';
 import { FaChartArea, FaHome, FaPenNib } from 'react-icons/fa';
 import { MdLiving } from 'react-icons/md';
 import '../styles/house.css';
+import { useNavigate } from 'react-router';
 
 const House = ({ house }) => {
+  const navigate = useNavigate();
   return (
     <div className="card bg-base-100 shadow-sm">
       <figure>
@@ -40,7 +42,13 @@ const House = ({ house }) => {
             </p>
             <p className="font-medium">{house.price.current}</p>
           </div>
-          <div className="bg-blue-600 text-white text-center font-medium cursor-pointer px-2 py-1 rounded">
+          <div
+            onClick={() => {
+              navigate(`/house-details/${house.id}`);
+              window.scrollTo(0, 0);
+            }}
+            className="bg-blue-600 text-white text-center font-medium cursor-pointer px-2 py-1 rounded"
+          >
             View Details
           </div>
         </div>
