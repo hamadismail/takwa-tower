@@ -763,11 +763,459 @@
     "costs": [
       {
         "id": 1,
-        "date": "",
-        "item": "",
+        "date": "01/01/2025",
+        "item": "ইট ১ গাড়ি",
         "unit": null,
         "unit_cost": null,
-        "total_cost": ""
+        "total_cost": 34000
+      },
+      {
+        "id": 2,
+        "date": "01/01/2025",
+        "item": "আস্তর বালি ২ গাড়ি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 11000
+      },
+      {
+        "id": 3,
+        "date": "01/01/2025",
+        "item": "সিমেন্ট ২০০ ব্যাগ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 100000
+      },
+      {
+        "id": 4,
+        "date": "01/01/2025",
+        "item": "চৌকাঠ বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 50000
+      },
+      {
+        "id": 5,
+        "date": "02/01/2025",
+        "item": "সগীর লেভার বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 60900
+      },
+      {
+        "id": 6,
+        "date": "02/01/2025",
+        "item": "আস্তর লেভার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 2800
+      },
+      {
+        "id": 7,
+        "date": "02/01/2025",
+        "item": "ইট উঠানো",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 8900
+      },
+      {
+        "id": 8,
+        "date": "07/01/2025",
+        "item": "কাউছার সাহেব",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 38000
+      },
+      {
+        "id": 9,
+        "date": "07/01/2025",
+        "item": "সামসুল হক সাহেব",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 25000
+      },
+      {
+        "id": 10,
+        "date": "07/01/2025",
+        "item": "আমিন সিকিউরিটি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 7000
+      },
+      {
+        "id": 11,
+        "date": "07/01/2025",
+        "item": "রুহুল আমিন",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 22000
+      },
+      {
+        "id": 12,
+        "date": "07/01/2025",
+        "item": "আস্তর বালি ২ গাড়ি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 11000
+      },
+      {
+        "id": 13,
+        "date": "07/01/2025",
+        "item": "১০ মি রিং",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 8250
+      },
+      {
+        "id": 14,
+        "date": "07/01/2025",
+        "item": "গ্যাস লাইনের অফিসারদের বকশিস",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 10000
+      },
+      {
+        "id": 15,
+        "date": "07/01/2025",
+        "item": "সিমেন্ট লেভার বকশিশ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 500
+      },
+      {
+        "id": 16,
+        "date": "07/01/2025",
+        "item": "বালি ২ গাড়ি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 11000
+      },
+      {
+        "id": 17,
+        "date": "07/01/2025",
+        "item": "সগীর লেভার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 53000
+      },
+      {
+        "id": 18,
+        "date": "07/01/2025",
+        "item": "ইট ৩০০০",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 53000
+      },
+      {
+        "id": 19,
+        "date": "07/01/2025",
+        "item": "ইট ও বালি উঠানো",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 11600
+      },
+      {
+        "id": 20,
+        "date": "07/01/2025",
+        "item": "কামরুল সিকিউরিটি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 12000
+      },
+      {
+        "id": 21,
+        "date": "07/01/2025",
+        "item": "গ্যাস বিল",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 53785
+      },
+      {
+        "id": 22,
+        "date": "07/01/2025",
+        "item": "৬ তালার লেভার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 21000
+      },
+      {
+        "id": 23,
+        "date": "07/01/2025",
+        "item": "আস্তর বালি ২ গাড়ি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 11000
+      },
+      {
+        "id": 24,
+        "date": "07/01/2025",
+        "item": "বাল্ব ১ পিচ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 480
+      },
+      {
+        "id": 25,
+        "date": "07/01/2025",
+        "item": "সেনিটারি মালামাল",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 113500
+      },
+      {
+        "id": 26,
+        "date": "07/01/2025",
+        "item": "তারকাটা ৩ কেজি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 950
+      },
+      {
+        "id": 27,
+        "date": "07/01/2025",
+        "item": "বালি উঠানো লেভার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 5600
+      },
+      {
+        "id": 28,
+        "date": "07/01/2025",
+        "item": "১০০ ব্যাগ সিমেন্ট",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 50000
+      },
+      {
+        "id": 29,
+        "date": "13/01/2025",
+        "item": "চৌকাঠ বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 50000
+      },
+      {
+        "id": 30,
+        "date": "16/01/2025",
+        "item": "চৌকাঠ বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 20000
+      },
+      {
+        "id": 31,
+        "date": "16/01/2025",
+        "item": "চৌকাঠ আনতে ব্যান ভাড়া",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 300
+      },
+      {
+        "id": 32,
+        "date": "16/01/2025",
+        "item": "সগীর লেভার বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 53200
+      },
+      {
+        "id": 33,
+        "date": "16/01/2025",
+        "item": "৬ তলা ও ৮ তলার গাথনি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 23800
+      },
+      {
+        "id": 34,
+        "date": "16/01/2025",
+        "item": "১০০ ব্যাগ সিমেন্ট লেভার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 3500
+      },
+      {
+        "id": 35,
+        "date": "16/01/2025",
+        "item": "তারকাটা",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 500
+      },
+      {
+        "id": 36,
+        "date": "16/01/2025",
+        "item": "কাউছার সাহেবের গ্যাস বিল",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 102000
+      },
+      {
+        "id": 37,
+        "date": "20/01/2025",
+        "item": "TST রায়হান গ্রিল বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 50000
+      },
+      {
+        "id": 38,
+        "date": "21/01/2025",
+        "item": "পানির বিল",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 26700
+      },
+      {
+        "id": 39,
+        "date": "21/01/2025",
+        "item": "৮ রট",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 7530
+      },
+      {
+        "id": 40,
+        "date": "21/01/2025",
+        "item": "১০ পিচ চৌকাঠ বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 50000
+      },
+      {
+        "id": 41,
+        "date": "21/01/2025",
+        "item": "ডোর ৩ পিচ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 19000
+      },
+      {
+        "id": 42,
+        "date": "21/01/2025",
+        "item": "ক্যামেরা বাবদ প্রদীপকে",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 10000
+      },
+      {
+        "id": 43,
+        "date": "21/01/2025",
+        "item": "বালি টানা লেভার বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 2500
+      },
+      {
+        "id": 44,
+        "date": "21/01/2025",
+        "item": "আস্তর বালি ১ গাড়ি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 6000
+      },
+      {
+        "id": 45,
+        "date": "24/01/2025",
+        "item": "সগীর লেভার বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 53000
+      },
+      {
+        "id": 46,
+        "date": "24/01/2025",
+        "item": "৬/৭ তালার গাথনি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 9000
+      },
+      {
+        "id": 47,
+        "date": "24/01/2025",
+        "item": "চৌকাঠ বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 40000
+      },
+      {
+        "id": 48,
+        "date": "24/01/2025",
+        "item": "ইলেকট্রিক মালামাল",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 12000
+      },
+      {
+        "id": 49,
+        "date": "24/01/2025",
+        "item": "আস্তর বালি ১ গাড়ি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 6000
+      },
+      {
+        "id": 50,
+        "date": "24/01/2025",
+        "item": "বালি টানা লেভার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 2400
+      },
+      {
+        "id": 51,
+        "date": "24/01/2025",
+        "item": "-----",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 500
+      },
+      {
+        "id": 52,
+        "date": "24/01/2025",
+        "item": "ইলেকট্রিক মিস্ত্রি পারভেজ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 35000
+      },
+      {
+        "id": 53,
+        "date": "24/01/2025",
+        "item": "সিমেন্ট উপরে উঠানো লেভার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 3700
+      },
+      {
+        "id": 54,
+        "date": "24/01/2025",
+        "item": "মোতালেব মিস্ত্রি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 10000
+      },
+      {
+        "id": 55,
+        "date": "30/01/2025",
+        "item": "সগীর লেভার বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 72800
+      },
+      {
+        "id": 56,
+        "date": "30/01/2025",
+        "item": "১০০ ব্যাগ সিমেন্ট বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 50000
+      },
+      {
+        "id": 57,
+        "date": "30/01/2025",
+        "item": "১০০ ব্যাগ সিমেন্ট উঠানো লেভার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 3700
       }
     ]
   }

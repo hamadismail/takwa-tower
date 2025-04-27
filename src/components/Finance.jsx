@@ -15,7 +15,7 @@ const Finance = () => {
           <p className="mt-4 text-2xl text-center text-green-600 font-medium p-8 bg-green-100 rounded-2xl">
             N/A
           </p>
-          <p className="text-sm mt-1 text-center">Since March 2025</p>
+          <p className="text-sm mt-1 text-center">Since January 2025</p>
 
           <button
             onClick={() => {
@@ -30,9 +30,9 @@ const Finance = () => {
         <div className="flex-[5] bg-gray-100 p-4 m-4 rounded-2xl">
           <h1 className="text-center text-xl font-semibold">Total Expenses</h1>
           <p className="mt-4 text-2xl text-center text-red-600 font-medium p-8 bg-red-100 rounded-2xl">
-            11,92,475 BDT
+            38,95,465 BDT
           </p>
-          <p className="text-sm mt-1 text-center">Since March 2025</p>
+          <p className="text-sm mt-1 text-center">Since January 2025</p>
           <button
             onClick={() => {
               navigate('/expenses');
