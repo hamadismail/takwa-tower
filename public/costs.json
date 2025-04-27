@@ -375,7 +375,390 @@
   },
   {
     "id": 3,
-    "month": "March",
+    "month": "February",
+    "year": 2025,
+    "costs": [
+      {
+        "id": 1,
+        "date": "02/02/2025",
+        "item": "আস্তর বালি টানা লেভার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 7400
+      },
+      {
+        "id": 2,
+        "date": "02/02/2025",
+        "item": "সাইদ ড্রাইভার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 15000
+      },
+      {
+        "id": 3,
+        "date": "05/02/2025",
+        "item": "আমিন সিকিউরিটি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 12000
+      },
+      {
+        "id": 4,
+        "date": "05/02/2025",
+        "item": "কামরুল সিকিউরিটি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 12000
+      },
+      {
+        "id": 5,
+        "date": "05/02/2025",
+        "item": "মটর মেরামত",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 600
+      },
+      {
+        "id": 6,
+        "date": "06/02/2025",
+        "item": "সগীর লেভার বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 67900
+      },
+      {
+        "id": 7,
+        "date": "06/02/2025",
+        "item": "লেভার ঔষধ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 400
+      },
+      {
+        "id": 8,
+        "date": "06/02/2025",
+        "item": "টাইলস ক্রয় বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 228000
+      },
+      {
+        "id": 9,
+        "date": "06/02/2025",
+        "item": "টাইলস উপরে উঠানোর ভাড়া",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 6500
+      },
+      {
+        "id": 10,
+        "date": "06/02/2025",
+        "item": "সিমেন্ট টানা লেভার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 2900
+      },
+      {
+        "id": 11,
+        "date": "06/02/2025",
+        "item": "-- ভাঙা",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 2350
+      },
+      {
+        "id": 12,
+        "date": "06/02/2025",
+        "item": "বালি টানা লেভার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 7400
+      },
+      {
+        "id": 13,
+        "date": "06/02/2025",
+        "item": "---",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 8650
+      },
+      {
+        "id": 14,
+        "date": "06/02/2025",
+        "item": "কাউছার সাহেব",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 38000
+      },
+      {
+        "id": 15,
+        "date": "06/02/2025",
+        "item": "stella comel",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 2000
+      },
+      {
+        "id": 16,
+        "date": "06/02/2025",
+        "item": "লেভার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 500
+      },
+      {
+        "id": 17,
+        "date": "06/02/2025",
+        "item": "মোতালেব সেনিটারি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 10000
+      },
+      {
+        "id": 18,
+        "date": "06/02/2025",
+        "item": "রুবেল রং মিস্ত্রি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 10000
+      },
+      {
+        "id": 19,
+        "date": "13/02/2025",
+        "item": "TST রায়হান",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 50000
+      },
+      {
+        "id": 20,
+        "date": "13/02/2025",
+        "item": "Conmix",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 1100
+      },
+      {
+        "id": 21,
+        "date": "13/02/2025",
+        "item": "বালি উঠানো লেভার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 7200
+      },
+      {
+        "id": 22,
+        "date": "13/02/2025",
+        "item": "শাহাদাৎ চৌকাঠ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 40000
+      },
+      {
+        "id": 23,
+        "date": "15/02/2025",
+        "item": "TST রায়হান",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 50000
+      },
+      {
+        "id": 24,
+        "date": "15/02/2025",
+        "item": "----",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 8695
+      },
+      {
+        "id": 25,
+        "date": "15/02/2025",
+        "item": "সিলার --",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 20000
+      },
+      {
+        "id": 26,
+        "date": "15/02/2025",
+        "item": "সগীর লেভার বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 50000
+      },
+      {
+        "id": 27,
+        "date": "15/02/2025",
+        "item": "রুবেল রং মিস্ত্রি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 10000
+      },
+      {
+        "id": 28,
+        "date": "15/02/2025",
+        "item": "টাইলস মিস্ত্রি হাসান",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 20000
+      },
+      {
+        "id": 29,
+        "date": "16/02/2025",
+        "item": "১০০ সিমেন্ট বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 50000
+      },
+      {
+        "id": 30,
+        "date": "16/02/2025",
+        "item": "টাইলস মিস্ত্রি হাসান",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 10000
+      },
+      {
+        "id": 31,
+        "date": "19/02/2025",
+        "item": "সগীর লেভার বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 49500
+      },
+      {
+        "id": 32,
+        "date": "19/02/2025",
+        "item": "সেনিটারি মালামাল",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 88700
+      },
+      {
+        "id": 33,
+        "date": "19/02/2025",
+        "item": "ফ্ল্যাশ ডোর ৩ পিচ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 13500
+      },
+      {
+        "id": 34,
+        "date": "19/02/2025",
+        "item": "দরজার বার্নিস মিস্ত্রি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 7000
+      },
+      {
+        "id": 35,
+        "date": "19/02/2025",
+        "item": "ওয়াসার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 1500
+      },
+      {
+        "id": 36,
+        "date": "27/02/2025",
+        "item": "বিদ্যুৎ বিল ২ মাস",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 77650
+      },
+      {
+        "id": 37,
+        "date": "27/02/2025",
+        "item": "polly cables",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 42000
+      },
+      {
+        "id": 38,
+        "date": "27/02/2025",
+        "item": "বার্মার রং",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 10000
+      },
+      {
+        "id": 39,
+        "date": "27/02/2025",
+        "item": "সিন",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 7500
+      },
+      {
+        "id": 40,
+        "date": "27/02/2025",
+        "item": "খোয়া ভাঙা",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 3000
+      },
+      {
+        "id": 41,
+        "date": "27/02/2025",
+        "item": "সগীর লেভার বাবদ",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 64400
+      },
+      {
+        "id": 42,
+        "date": "27/02/2025",
+        "item": "আস্তর বালি ২ গাড়ী",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 11000
+      },
+      {
+        "id": 43,
+        "date": "27/02/2025",
+        "item": "বালি উঠানো লেভার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 4000
+      },
+      {
+        "id": 44,
+        "date": "27/02/2025",
+        "item": "রুবেল রং মিস্ত্রি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 10000
+      },
+      {
+        "id": 45,
+        "date": "27/02/2025",
+        "item": "সগীর",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 2800
+      },
+      {
+        "id": 46,
+        "date": "27/02/2025",
+        "item": "সুইচ/কারেন্ট মিস্ত্রি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 30450
+      },
+      {
+        "id": 47,
+        "date": "30/02/2025",
+        "item": "রুহুল আমিন",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 22000
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "month": "January",
     "year": 2025,
     "costs": [
       {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import DailyExpenses from '../components/DailyExpenses';
 import { useLoaderData, useNavigate, useParams } from 'react-router';
 
@@ -6,11 +6,26 @@ const MonthlyExpenses = () => {
   const expenses = useLoaderData();
   const { monthId } = useParams();
   const monthData = expenses.find(exp => exp.id === parseInt(monthId));
+  const dailyExpenses = monthData.costs;
   const monthlyCost = monthData.costs.reduce((acc, exp) => {
     return (acc += exp.total_cost);
   }, 0);
 
   const navigate = useNavigate();
+  const [showAll, setShowAll] = useState(false);
+  const [costs, setCosts] = useState([]);
+
+  useEffect(() => {
+    if (dailyExpenses.length > 20) {
+      if (showAll) {
+        setCosts(dailyExpenses);
+      } else {
+        setCosts(dailyExpenses.slice(0, 20));
+      }
+    } else {
+      setCosts(dailyExpenses);
+    }
+  }, [showAll, dailyExpenses]);
 
   return (
     <div className="w-11/12 mx-auto">
@@ -45,12 +60,32 @@ const MonthlyExpenses = () => {
           </thead>
           <tbody>
             {/* row 1 */}
-            {monthData.costs.map(rec => (
+            {costs.map(rec => (
               <DailyExpenses key={rec.id} rec={rec} />
             ))}
           </tbody>
 
           <tfoot>
+            <tr>
+              <td></td>
+              <td className="max-md:hidden"></td>
+              <td>
+                {dailyExpenses.length > 20 && (
+                  <button
+                    className="btn bg-blue-600 text-white rounded-full"
+                    onClick={() => {
+                      setShowAll(prev => !prev);
+                      showAll &&
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }}
+                  >
+                    {showAll ? 'Show Less' : 'Show All'}
+                  </button>
+                )}
+              </td>
+              <td className="max-md:hidden"></td>
+              <td></td>
+            </tr>
             <tr className="font-semibold text-lg bg-gray-200">
               <td>Total Costs:</td>
               <td className="max-md:hidden"></td>
