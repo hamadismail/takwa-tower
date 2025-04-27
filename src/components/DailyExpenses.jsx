@@ -3,7 +3,7 @@ import React from 'react';
 const DailyExpenses = ({ rec }) => {
   return (
     <tr>
-      <th>{rec.date}</th>
+      <th className="font-medium text-sm">{rec.date}</th>
       <td>{rec.item}</td>
       <td className="max-md:hidden">{rec?.unit}</td>
       <td className="max-md:hidden">{rec?.unit_cost}</td>

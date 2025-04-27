@@ -35,7 +35,7 @@ const RecentExpenses = ({ expenses }) => {
               <td>Total Costs:</td>
               <td className="max-md:hidden"></td>
               <td className="max-md:hidden"></td>
-              <td></td>
+              <td className="max-md:hidden"></td>
               <td>{totalCost}</td>
             </tr>
           </tfoot>

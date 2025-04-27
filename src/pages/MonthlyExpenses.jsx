@@ -36,7 +36,7 @@ const MonthlyExpenses = () => {
             {monthData.month} - {monthData.year}
           </h2>
         </div>
-        <div>
+        <div className="w-1/2 flex justify-end">
           <button
             onClick={() => navigate(-1)}
             className="btn bg-blue-600 text-white rounded-full"
@@ -90,7 +90,7 @@ const MonthlyExpenses = () => {
               <td>Total Costs:</td>
               <td className="max-md:hidden"></td>
               <td className="max-md:hidden"></td>
-              <td></td>
+              <td className="max-md:hidden"></td>
               <td>{monthlyCost}</td>
             </tr>
           </tfoot>
