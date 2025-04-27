@@ -30,8 +30,8 @@ const RecentExpenses = ({ expenses }) => {
             ))}
           </tbody>
 
-          <tfoot className="bg-gray-100 ">
-            <tr className="font-semibold text-lg">
+          <tfoot>
+            <tr className="font-semibold text-lg bg-gray-200">
               <td>Total Costs:</td>
               <td className="max-md:hidden"></td>
               <td className="max-md:hidden"></td>

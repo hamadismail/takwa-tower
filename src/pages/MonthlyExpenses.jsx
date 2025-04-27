@@ -1,6 +1,6 @@
 import React from 'react';
 import DailyExpenses from '../components/DailyExpenses';
-import { useLoaderData, useParams } from 'react-router';
+import { useLoaderData, useNavigate, useParams } from 'react-router';
 
 const MonthlyExpenses = () => {
   const expenses = useLoaderData();
@@ -10,12 +10,26 @@ const MonthlyExpenses = () => {
     return (acc += exp.total_cost);
   }, 0);
 
+  const navigate = useNavigate();
+
   return (
     <div className="w-11/12 mx-auto">
-      <h1 className="text-2xl font-medium text-center"> Monthly Expenses</h1>
-      <h2 className="text-center font-medium mb-8">
-        {monthData.month} - {monthData.year}
-      </h2>
+      <div className="bg-white p-4 mb-4 rounded-2xl flex justify-between items-center">
+        <div>
+          <h1 className="text-2xl font-medium">Monthly Expenses</h1>
+          <h2 className=" font-medium">
+            {monthData.month} - {monthData.year}
+          </h2>
+        </div>
+        <div>
+          <button
+            onClick={() => navigate(-1)}
+            className="btn bg-blue-600 text-white rounded-full"
+          >
+            Go Back
+          </button>
+        </div>
+      </div>
 
       <div className="overflow-x-auto">
         <table className="table">
@@ -36,8 +50,8 @@ const MonthlyExpenses = () => {
             ))}
           </tbody>
 
-          <tfoot className="bg-gray-100 ">
-            <tr className="font-semibold text-lg">
+          <tfoot>
+            <tr className="font-semibold text-lg bg-gray-200">
               <td>Total Costs:</td>
               <td className="max-md:hidden"></td>
               <td className="max-md:hidden"></td>
