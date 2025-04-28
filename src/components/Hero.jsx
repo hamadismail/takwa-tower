@@ -1,5 +1,5 @@
 import React from 'react';
-import banner1 from '../assets/images/banner-1.jpg';
+import banner from '../assets/images/banner.png';
 import banner2 from '../assets/images/banner-2.jpg';
 import '../styles/hero.css';
 
@@ -17,7 +17,7 @@ const Hero = () => {
       </p>
 
       <div className="flex justify-center flex-col md:flex-row gap-4 my-8 md:w-2/5 mx-auto">
-        <img className="hero-img" src={banner1} />
+        <img className="hero-img" src={banner} />
         <img className="hero-img" src={banner2} />
       </div>
     </div>
