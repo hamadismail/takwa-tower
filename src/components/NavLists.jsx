@@ -10,6 +10,9 @@ const NavLists = () => {
       <li>
         <NavLink to="/expenses">Expenses</NavLink>
       </li>
+      <li>
+        <NavLink to="/invests">Invests</NavLink>
+      </li>
     </>
   );
   return navLists;

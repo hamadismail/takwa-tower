@@ -13,13 +13,13 @@ const Finance = () => {
             Total Investment
           </h1>
           <p className="mt-4 text-2xl text-center text-green-600 font-medium p-8 bg-green-100 rounded-2xl">
-            N/A
+            38,60,000 BDT
           </p>
           <p className="text-sm mt-1 text-center">Since January 2025</p>
 
           <button
             onClick={() => {
-              navigate('/expenses');
+              navigate('/invests');
               window.scrollTo(0, 0);
             }}
             className="mt-4 cursor-pointer bg-green-600 text-white w-full font-semibold p-2 rounded-full"

@@ -6,6 +6,7 @@ import HouseDetails from '../pages/HouseDetails';
 import Expenses from '../pages/Expenses';
 import MonthlyExpenses from '../pages/MonthlyExpenses';
 import Spinner from '../components/ui/Spinner';
+import Investment from '../pages/Investment';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,12 @@ const router = createBrowserRouter([
         path: 'expenses',
         Component: Expenses,
         loader: () => fetch('/costs.json'),
+        hydrateFallbackElement: <Spinner />,
+      },
+      {
+        path: 'invests',
+        Component: Investment,
+        loader: () => fetch('/invests.json'),
         hydrateFallbackElement: <Spinner />,
       },
       {
