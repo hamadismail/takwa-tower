@@ -5,12 +5,28 @@
     "year": 2025,
     "costs": [
       {
-        "id": 85,
+        "id": 851,
         "date": "08/05/2025",
-        "item": null,
+        "item": "Thai Glass",
         "unit": null,
         "unit_cost": null,
-        "total_cost": null
+        "total_cost": 50000
+      },
+      {
+        "id": 852,
+        "date": "08/05/2025",
+        "item": "Mahbub Bhai",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 35000
+      },
+      {
+        "id": 853,
+        "date": "08/05/2025",
+        "item": "Shamsul Hoque",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 21500
       }
     ]
   },

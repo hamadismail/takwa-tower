@@ -1,47 +1,49 @@
-import { createBrowserRouter } from 'react-router';
-import Root from '../layout/Root';
-import Home from '../pages/Home';
-import Error from '../pages/Error';
-import HouseDetails from '../pages/HouseDetails';
-import Expenses from '../pages/Expenses';
-import MonthlyExpenses from '../pages/MonthlyExpenses';
-import Spinner from '../components/ui/Spinner';
-import Investment from '../pages/Investment';
+import { createBrowserRouter } from "react-router";
+import Root from "../layout/Root";
+import Home from "../pages/Home";
+import Error from "../pages/Error";
+import HouseDetails from "../pages/HouseDetails";
+import Expenses from "../pages/Expenses";
+import MonthlyExpenses from "../pages/MonthlyExpenses";
+import Spinner from "../components/ui/Spinner";
+import Investment from "../pages/Investment";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     Component: Root,
+    loader: () => fetch("/costs.json"),
+    hydrateFallbackElement: <Spinner />,
     errorElement: <Error />,
     children: [
       {
         index: true,
         Component: Home,
-        loader: () => fetch('/house.json'),
+        loader: () => fetch("/house.json"),
         hydrateFallbackElement: <Spinner />,
       },
       {
-        path: 'expenses',
+        path: "expenses",
         Component: Expenses,
-        loader: () => fetch('/costs.json'),
+        loader: () => fetch("/costs.json"),
         hydrateFallbackElement: <Spinner />,
       },
       {
-        path: 'invests',
+        path: "invests",
         Component: Investment,
-        loader: () => fetch('/invests.json'),
+        loader: () => fetch("/invests.json"),
         hydrateFallbackElement: <Spinner />,
       },
       {
-        path: 'house-details/:houseId',
+        path: "house-details/:houseId",
         Component: HouseDetails,
-        loader: () => fetch('/house.json'),
+        loader: () => fetch("/house.json"),
         hydrateFallbackElement: <Spinner />,
       },
       {
-        path: 'monthly-expenses/:monthId',
+        path: "monthly-expenses/:monthId",
         Component: MonthlyExpenses,
-        loader: () => fetch('/costs.json'),
+        loader: () => fetch("/costs.json"),
         hydrateFallbackElement: <Spinner />,
       },
     ],
