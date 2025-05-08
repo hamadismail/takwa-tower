@@ -1,15 +1,19 @@
-import React, { useEffect, useState } from 'react';
-import DailyExpenses from '../components/DailyExpenses';
-import { useLoaderData, useNavigate, useParams } from 'react-router';
+import React, { useEffect, useState } from "react";
+import DailyExpenses from "../components/DailyExpenses";
+import { useLoaderData, useNavigate, useParams } from "react-router";
 
 const MonthlyExpenses = () => {
   const expenses = useLoaderData();
   const { monthId } = useParams();
-  const monthData = expenses.find(exp => exp.id === parseInt(monthId));
+  const monthData = expenses.find((exp) => exp.id === parseInt(monthId));
   const dailyExpenses = monthData.costs;
   const monthlyCost = monthData.costs.reduce((acc, exp) => {
     return (acc += exp.total_cost);
   }, 0);
+
+  const formatAmount = (amount) => {
+    return amount.toLocaleString("en-IN");
+  };
 
   const navigate = useNavigate();
   const [showAll, setShowAll] = useState(false);
@@ -60,7 +64,7 @@ const MonthlyExpenses = () => {
           </thead>
           <tbody>
             {/* row 1 */}
-            {costs.map(rec => (
+            {costs.map((rec) => (
               <DailyExpenses key={rec.id} rec={rec} />
             ))}
           </tbody>
@@ -74,12 +78,12 @@ const MonthlyExpenses = () => {
                   <button
                     className="btn bg-blue-600 text-white rounded-full"
                     onClick={() => {
-                      setShowAll(prev => !prev);
+                      setShowAll((prev) => !prev);
                       showAll &&
-                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                        window.scrollTo({ top: 0, behavior: "smooth" });
                     }}
                   >
-                    {showAll ? 'Show Less' : 'Show All'}
+                    {showAll ? "Show Less" : "Show All"}
                   </button>
                 )}
               </td>
@@ -91,7 +95,7 @@ const MonthlyExpenses = () => {
               <td className="max-md:hidden"></td>
               <td className="max-md:hidden"></td>
               <td className="max-md:hidden"></td>
-              <td>{monthlyCost}</td>
+              <td>{formatAmount(monthlyCost)}</td>
             </tr>
           </tfoot>
         </table>

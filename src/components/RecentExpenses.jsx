@@ -1,11 +1,15 @@
-import React from 'react';
-import DailyExpenses from './DailyExpenses';
+import React from "react";
+import DailyExpenses from "./DailyExpenses";
 
 const RecentExpenses = ({ expenses }) => {
   const recentExpences = expenses[0].costs;
   const totalCost = recentExpences.reduce((acc, exp) => {
     return (acc += exp.total_cost);
   }, 0);
+
+  const formatAmount = (amount) => {
+    return amount.toLocaleString("en-IN");
+  };
 
   return (
     <div className="mt-8 bg-white py-4 lg:p-8 rounded-xl">
@@ -25,7 +29,7 @@ const RecentExpenses = ({ expenses }) => {
           </thead>
           <tbody>
             {/* row 1 */}
-            {recentExpences.map(rec => (
+            {recentExpences.map((rec) => (
               <DailyExpenses key={rec.id} rec={rec} />
             ))}
           </tbody>
@@ -36,7 +40,7 @@ const RecentExpenses = ({ expenses }) => {
               <td className="max-md:hidden"></td>
               <td className="max-md:hidden"></td>
               <td className="max-md:hidden"></td>
-              <td>{totalCost}</td>
+              <td>{formatAmount(totalCost)}</td>
             </tr>
           </tfoot>
         </table>

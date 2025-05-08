@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { useLoaderData, useNavigate } from 'react-router';
-import DailyInvests from '../components/DailyInvests';
+import React, { useEffect, useState } from "react";
+import { useLoaderData, useNavigate } from "react-router";
+import DailyInvests from "../components/DailyInvests";
 
 const Investment = () => {
   const invests = useLoaderData();
@@ -9,8 +9,12 @@ const Investment = () => {
   const [investment, setInvestment] = useState([]);
   const totalInvest = invests.reduce(
     (acc, invest) => (acc += invest.amount),
-    0
+    0,
   );
+
+  const formatAmount = (amount) => {
+    return amount.toLocaleString("en-IN");
+  };
 
   useEffect(() => {
     if (invests.length > 20) {
@@ -53,7 +57,7 @@ const Investment = () => {
           </thead>
           <tbody>
             {/* row 1 */}
-            {investment.map(invest => (
+            {investment.map((invest) => (
               <DailyInvests key={invest.id} invest={invest} />
             ))}
           </tbody>
@@ -66,12 +70,12 @@ const Investment = () => {
                   <button
                     className="btn bg-blue-600 text-white rounded-full"
                     onClick={() => {
-                      setShowAll(prev => !prev);
+                      setShowAll((prev) => !prev);
                       showAll &&
-                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                        window.scrollTo({ top: 0, behavior: "smooth" });
                     }}
                   >
-                    {showAll ? 'Show Less' : 'Show All'}
+                    {showAll ? "Show Less" : "Show All"}
                   </button>
                 )}
               </td>
@@ -79,7 +83,7 @@ const Investment = () => {
             <tr className="font-semibold text-lg bg-gray-200">
               <td>Total Invests:</td>
               <td></td>
-              <td>{totalInvest}</td>
+              <td>{formatAmount(totalInvest)}</td>
             </tr>
           </tfoot>
         </table>

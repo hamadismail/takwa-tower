@@ -1,10 +1,15 @@
-import React from 'react';
-import { useNavigate } from 'react-router';
+import React from "react";
+import { useNavigate } from "react-router";
 
 const ExpenseCard = ({ expense }) => {
   const monthlyCost = expense.costs.reduce((acc, exp) => {
     return (acc += exp.total_cost);
   }, 0);
+
+  const formatAmount = (amount) => {
+    return amount.toLocaleString("en-IN");
+  };
+
   const navigate = useNavigate();
   return (
     <div className="card bg-white">
@@ -13,7 +18,7 @@ const ExpenseCard = ({ expense }) => {
           {expense.month} - {expense.year}
         </h2>
         <p className="bg-gray-100 p-6 w-full text-2xl font-semibold">
-          {monthlyCost} BDT
+          {formatAmount(monthlyCost)} BDT
         </p>
         <p>Total Costs</p>
 

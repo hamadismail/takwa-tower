@@ -1,11 +1,14 @@
-import React from 'react';
+import React from "react";
 
 const DailyInvests = ({ invest }) => {
+  const formatAmount = (amount) => {
+    return amount.toLocaleString("en-IN");
+  };
   return (
     <tr>
       <td className="font-medium text-sm">{invest.date}</td>
       <td>{invest.sources}</td>
-      <td>{invest.amount}</td>
+      <td>{formatAmount(invest.amount)}</td>
     </tr>
   );
 };

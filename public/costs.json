@@ -1,5 +1,20 @@
 [
   {
+    "id": 525,
+    "month": "May",
+    "year": 2025,
+    "costs": [
+      {
+        "id": 85,
+        "date": "08/05/2025",
+        "item": null,
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": null
+      }
+    ]
+  },
+  {
     "id": 1,
     "month": "April",
     "year": 2025,
