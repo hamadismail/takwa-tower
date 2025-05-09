@@ -5,7 +5,39 @@
     "year": 2025,
     "costs": [
       {
-        "id": 851,
+        "id": 952,
+        "date": "09/05/2025",
+        "item": "Wifi Bill",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 300
+      },
+      {
+        "id": 951,
+        "date": "09/05/2025",
+        "item": "Sayed Bhai (Salary)",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 20000
+      },
+      {
+        "id": 855,
+        "date": "08/05/2025",
+        "item": "Hardware",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 500
+      },
+      {
+        "id": 854,
+        "date": "08/05/2025",
+        "item": "Sogir Bhai (Labour Cost)",
+        "unit": 31,
+        "unit_cost": 700,
+        "total_cost": 21700
+      },
+      {
+        "id": 853,
         "date": "08/05/2025",
         "item": "Thai Glass",
         "unit": null,
@@ -21,7 +53,7 @@
         "total_cost": 35000
       },
       {
-        "id": 853,
+        "id": 851,
         "date": "08/05/2025",
         "item": "Shamsul Hoque",
         "unit": null,
