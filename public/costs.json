@@ -5,6 +5,38 @@
     "year": 2025,
     "costs": [
       {
+        "id": 1054,
+        "date": "10/05/2025",
+        "item": "Car Service",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 3500
+      },
+      {
+        "id": 1053,
+        "date": "10/05/2025",
+        "item": "Methor Bill",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 500
+      },
+      {
+        "id": 1052,
+        "date": "10/05/2025",
+        "item": "Amin Security (Medicine)",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 2000
+      },
+      {
+        "id": 1051,
+        "date": "10/05/2025",
+        "item": "Siler Rong",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 36250
+      },
+      {
         "id": 952,
         "date": "09/05/2025",
         "item": "Wifi Bill",
