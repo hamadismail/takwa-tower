@@ -5,6 +5,14 @@
     "year": 2025,
     "costs": [
       {
+        "id": 125,
+        "date": "12/05/2025",
+        "item": "বালি উঠানোর লেভার",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 2500
+      },
+      {
         "id": 1054,
         "date": "10/05/2025",
         "item": "Car Service",
