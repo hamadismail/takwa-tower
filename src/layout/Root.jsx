@@ -8,11 +8,21 @@ import { useLoaderData } from "react-router";
 import { use } from "react";
 import { CostContext } from "../providers/CostContext";
 
+const investsRes = fetch("/invests.json").then((res) => res.json());
+
 const Root = () => {
   const navigation = useNavigation();
   const isNavigating = Boolean(navigation.location);
   const expenses = useLoaderData();
   const { setCosts } = use(CostContext);
+  const { setInvests } = use(CostContext);
+
+  const investsData = use(investsRes);
+
+  const totalInvest = investsData.reduce(
+    (acc, invest) => (acc += invest.amount),
+    0,
+  );
 
   useEffect(() => {
     const total = expenses.reduce((acc, expense) => {
@@ -24,7 +34,8 @@ const Root = () => {
     }, 0);
 
     setCosts(total);
-  }, [expenses, setCosts]);
+    setInvests(totalInvest);
+  }, [expenses, setCosts, setInvests, totalInvest]);
 
   return (
     <>

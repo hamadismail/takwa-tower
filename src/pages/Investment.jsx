@@ -1,16 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData, useNavigate } from "react-router";
 import DailyInvests from "../components/DailyInvests";
+import { use } from "react";
+import { CostContext } from "../providers/CostContext";
 
 const Investment = () => {
   const invests = useLoaderData();
   const navigate = useNavigate();
   const [showAll, setShowAll] = useState(false);
   const [investment, setInvestment] = useState([]);
-  const totalInvest = invests.reduce(
-    (acc, invest) => (acc += invest.amount),
-    0,
-  );
+  const { totalInvest } = use(CostContext);
 
   const formatAmount = (amount) => {
     return amount.toLocaleString("en-IN");

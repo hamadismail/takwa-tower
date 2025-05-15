@@ -3,10 +3,13 @@ import { CostContext } from "./CostContext";
 
 const CostProvider = ({ children }) => {
   const [costs, setCosts] = useState(0);
+  const [totalInvest, setInvests] = useState(0);
 
   const costsData = {
     costs,
+    totalInvest,
     setCosts,
+    setInvests,
   };
   return <CostContext value={costsData}>{children}</CostContext>;
 };
