@@ -5,6 +5,78 @@
     "year": 2025,
     "costs": [
       {
+        "id": 1559,
+        "date": "15/05/2025",
+        "item": "বেবাস",
+        "unit": 1,
+        "unit_cost": 180,
+        "total_cost": 180
+      },
+      {
+        "id": 1558,
+        "date": "15/05/2025",
+        "item": "২'' সিলি",
+        "unit": 1,
+        "unit_cost": 300,
+        "total_cost": 300
+      },
+      {
+        "id": 1557,
+        "date": "15/05/2025",
+        "item": "৪'' ব্লেড",
+        "unit": 10,
+        "unit_cost": 20,
+        "total_cost": 200
+      },
+      {
+        "id": 1556,
+        "date": "15/05/2025",
+        "item": "রেত",
+        "unit": 1,
+        "unit_cost": 40,
+        "total_cost": 40
+      },
+      {
+        "id": 1555,
+        "date": "15/05/2025",
+        "item": "২৪ তার",
+        "unit": 1.84,
+        "unit_cost": 160,
+        "total_cost": 295
+      },
+      {
+        "id": 1554,
+        "date": "15/05/2025",
+        "item": "২.৫'' তারকাটা",
+        "unit": 1.5,
+        "unit_cost": 115,
+        "total_cost": 172
+      },
+      {
+        "id": 1553,
+        "date": "15/05/2025",
+        "item": "২'' তারকাটা",
+        "unit": 3,
+        "unit_cost": 115,
+        "total_cost": 345
+      },
+      {
+        "id": 1552,
+        "date": "15/05/2025",
+        "item": "১০ মিলি রড ভাড়া",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 167
+      },
+      {
+        "id": 1551,
+        "date": "15/05/2025",
+        "item": "১০ মিলি রড FSL",
+        "unit": 89,
+        "unit_cost": 81.5,
+        "total_cost": 7253
+      },
+      {
         "id": 135,
         "date": "13/05/2025",
         "item": "সিরিজ কাগজ + ব্রাশ",

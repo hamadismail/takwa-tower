@@ -29,6 +29,24 @@ const Finance = () => {
           </p>
         </div>
 
+        {/* expenses card */}
+        <div className="flex-[5] bg-gray-100 p-4 m-4 rounded-2xl">
+          <h1 className="text-center text-xl font-semibold">Total Expenses</h1>
+          <p className="mt-4 text-2xl text-center text-red-600 font-medium p-8 bg-red-100 rounded-2xl">
+            {formatAmount(costs)} BDT
+          </p>
+          <p className="text-sm mt-1 text-center">Since January 2025</p>
+          <button
+            onClick={() => {
+              navigate("/expenses");
+              window.scrollTo(0, 0);
+            }}
+            className="mt-4 cursor-pointer bg-red-600 text-white w-full font-semibold p-2 rounded-full"
+          >
+            View Details
+          </button>
+        </div>
+
         {/* investment card */}
         <div className="flex-[5] bg-gray-100 p-4 m-4 rounded-2xl">
           <h1 className="text-center text-xl font-semibold">
@@ -45,24 +63,6 @@ const Finance = () => {
               window.scrollTo(0, 0);
             }}
             className="mt-4 cursor-pointer bg-green-600 text-white w-full font-semibold p-2 rounded-full"
-          >
-            View Details
-          </button>
-        </div>
-
-        {/* expenses card */}
-        <div className="flex-[5] bg-gray-100 p-4 m-4 rounded-2xl">
-          <h1 className="text-center text-xl font-semibold">Total Expenses</h1>
-          <p className="mt-4 text-2xl text-center text-red-600 font-medium p-8 bg-red-100 rounded-2xl">
-            {formatAmount(costs)} BDT
-          </p>
-          <p className="text-sm mt-1 text-center">Since January 2025</p>
-          <button
-            onClick={() => {
-              navigate("/expenses");
-              window.scrollTo(0, 0);
-            }}
-            className="mt-4 cursor-pointer bg-red-600 text-white w-full font-semibold p-2 rounded-full"
           >
             View Details
           </button>
