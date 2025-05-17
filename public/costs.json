@@ -5,6 +5,30 @@
     "year": 2025,
     "costs": [
       {
+        "id": 1753,
+        "date": "17/05/2025",
+        "item": "Wifi adapter",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 250
+      },
+      {
+        "id": 1752,
+        "date": "17/05/2025",
+        "item": "গ্রীল আনার ভাড়া",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 100
+      },
+      {
+        "id": 1751,
+        "date": "17/05/2025",
+        "item": "গ্রীল মুজুরি",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 1200
+      },
+      {
         "id": 1651,
         "date": "16/05/2025",
         "item": "৮০ নং পাথর",
@@ -85,7 +109,15 @@
         "total_cost": 7253
       },
       {
-        "id": 135,
+        "id": 1352,
+        "date": "13/05/2025",
+        "item": "Hamad (Salary)",
+        "unit": null,
+        "unit_cost": null,
+        "total_cost": 10000
+      },
+      {
+        "id": 1351,
         "date": "13/05/2025",
         "item": "সিরিজ কাগজ + ব্রাশ",
         "unit": null,
